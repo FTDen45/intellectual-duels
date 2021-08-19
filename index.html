@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="../bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-7">
+				<div class="row">
+					<div class="col-7 top_left bg-danger">top_left
+						<div class="row">
+							<div class="col-4">
+								img_avatar
+							</div>
+							<div class="col-8 fs-5 fw-bold">
+								<span>Иван Иванов</span>
+								<br>
+								<span>16 ПСЧ 76 ПСО</span>
+								<br>
+								<div><span>Рейтинг: </span> <span>+36 баллов</span>	</div>
+							</div>
+						</div>
+						<div class="statistic">
+							<div class="statistic_count bg-info w-50 pt-1 px-2">Проведено дуэлей: 25</div>
+							<div class="bg-info w-100 py-1"></div>
+							<div class="bg-info px-2">
+								<div class="border-bottom"></div>
+							</div>
+							<div class="bg-info py-1 px-2 d-flex justify-content-between">
+								<span>Побед: 16</span>
+								<span>В ничью: 2</span>
+								<span>Поражений: 7</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-5 top_right bg-info">top_right
+						Динамика дуэлей
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="title">Последние дуэли</div>
+						<div class="result_duels d-flex">
+							<div><img src="img/first_place.png" alt=""></div>
+							<div><img src="img/first_place.png" alt=""></div>
+							<div><img src="img/first_place.png" alt=""></div>
+							<div><img src="img/second_place.png" alt=""></div>
+							<div><img src="img/null_place.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="reiting_users">
+							<div class="reiting_users__title">Рейтинг участников</div>
+							<div class="reiting_users__tr d-flex justify-content-between reiting_first_place border-bottom">
+								<div class="reiting_users__tr_left"><span class="d-inline-block numer_place_width"><img src="img/reiting_first_place.png" alt=""></span> Антон Антонович А. (17 ПСЧ, 25 ПСО, г. Челябинск)</div>
+								<div class="reiting_users__tr_right">+89</div>
+							</div>
+							<div class="reiting_users__tr d-flex justify-content-between reiting_second_place border-bottom">
+								<div class="reiting_users__tr_left"><span class="d-inline-block numer_place_width"><img src="img/reiting_second_place.png" alt=""></span> Антон Антонович А. (17 ПСЧ, 25 ПСО, г. Челябинск)</div>
+								<div class="reiting_users__tr_right">+89</div>
+							</div>
+							<div class="reiting_users__tr d-flex justify-content-between reiting_thirde_place border-bottom">
+								<div class="reiting_users__tr_left"><span class="d-inline-block numer_place_width"><img src="img/reiting_thirde_place.png" alt=""></span> Антон Антонович А. (17 ПСЧ, 25 ПСО, г. Челябинск)</div>
+								<div class="reiting_users__tr_right">+89</div>
+							</div>
+							<div class="reiting_users__tr d-flex justify-content-between reiting_other_place border-bottom">
+								<div class="reiting_users__tr_left"><span class="d-inline-block numer_place_width text-center">4</span> Антон Антонович А. (17 ПСЧ, 25 ПСО, г. Челябинск)</div>
+								<div class="reiting_users__tr_right">+89</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-5">right</div>
+		</div>
+	</div>
+	<style>
+		.numer_place_width{
+			width: 27px;
+		}
+		.reiting_first_place{
+			background: linear-gradient(180deg, #FFAE66, #FF902E );
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			color: #FF902E;
+			font-size: 16px;
+			font-weight: 700;
+
+		}
+		.reiting_second_place{
+			background: linear-gradient(180deg, #A0A0A0 , #B6B6B6 );
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			color: #B6B6B6;
+			font-size: 16px;
+			font-weight: 700;
+		}
+		.reiting_thirde_place,.reiting_other_place{
+			background: linear-gradient(180deg, #748AB8 , #27395D );
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			color: #27395D;
+			font-size: 16px;
+			font-weight: 700;
+		}
+		.reiting_other_place{
+			font-weight: 400;
+		}
+		.statistic{
+
+		}
+	</style>
+</body>
+</html>
